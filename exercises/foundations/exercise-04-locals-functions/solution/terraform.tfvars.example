@@ -1,0 +1,13 @@
+# Example terraform.tfvars file
+# Copy this to terraform.tfvars and customize the values
+
+environment        = "dev"
+project_name       = "terraform_gym"
+enable_versioning  = false
+max_objects        = 1000
+
+custom_tags = {
+  Owner       = "YourName"
+  CostCenter  = "Engineering"
+  Application = "TerraformGym"
+}

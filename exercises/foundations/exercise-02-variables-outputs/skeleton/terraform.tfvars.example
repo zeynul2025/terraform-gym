@@ -1,0 +1,13 @@
+# Example terraform.tfvars
+# Copy this to terraform.tfvars and customize
+
+bucket_name         = "terraform-gym-vars-yourname"
+aws_region          = "us-east-1"
+environment         = "dev"
+enable_versioning   = true
+
+common_tags = {
+  ManagedBy   = "Terraform"
+  Environment = "Learning"
+  Student     = "your-name"
+}
